@@ -1,4 +1,4 @@
-/*Fonts*/
+/*----- Fonts -----*/
 @font-face {
   font-family: 'Hussar Woodtype';
   /*src: url("../fonts/hussarwoodtypeultra.otf") format("opentype");*/
@@ -17,10 +17,10 @@ html {
 body {
   max-width: 1440px;
   margin: auto;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
 }
 
-/*Nav*/
+/*------ Nav ------*/
 .navbar-light .navbar-toggler {
   color: #D39328;
   border-color: #D39328;
@@ -43,7 +43,7 @@ body {
   background-color: gray;
 }
 
-/*Nav Btn*/
+/*----- Nav Btn -----*/
 .register-btn {
     color: white;
     background-color: #C39BBC;
@@ -64,10 +64,9 @@ body {
   border-color: white;
 }
 
-/*Hero Component*/
+/*----- Hero Component -----*/
 .hero-container {
-  background: linear-gradient(0deg, white, transparent 15%),
-              black url('../img/heroImage.png') no-repeat;
+  background: url('../img/heroImage.png') no-repeat;
   background-size: cover;
   /*border-bottom: 5px solid #D39328;*/
 }
@@ -76,7 +75,15 @@ body {
   opacity: 0.0;
 }
 
-.crit-test {
+/*Schedule Row*/
+.schedule {
+  background-color: #DDE4EF;
+  margin-bottom: 5px;
+  color: rgb(1,1,1, 80%);
+}
+
+/*----- Races -----*/
+.race-heading {
   padding-left: 3%;
   background-color: rgb(142,167,202);
   font-family: "Futura-Bold";
@@ -84,16 +91,109 @@ body {
   margin-bottom: 5px;
 }
 
-/*.schedule {
-  border-radius: 15px 50px;
+.race-content {
+  margin: 3% auto;
+  font-size: 1.5rem;
+  font-family: "Brown Std";
 }
-*/
-/*Schedule Row*/
-.schedule {
-  background-color: rgb(142,167,202, 30%);
-  margin-bottom: 5px;
-  color: rgb(1,1,1, 80%);
 
+#race-bg {
+  background-color: #DDE4EF;
+  margin-bottom: 5px;
+}
+
+/*----- Fondo -----*/
+.fondo-heading {
+  padding-left: 3%;
+  background: rgb(116,179,75);
+  font-family: "Futura-Bold";
+  font-size: 4.5rem;
+  margin-bottom: 5px;
+}
+
+.fondo-content {
+  margin: 3% auto;
+  font-size: 1.5rem;
+  font-family: "Brown Std";
+}
+
+.fondo-img {
+  max-height: 400px;
+  width: 100%
+}
+
+#fondo-bg
+{
+  background: rgb(116,179,75, 30%);
+  margin-bottom: 5px;
+}
+
+/*----- Feist Weiller Heading -----*/
+.fw-heading {
+  padding-left: 3%;
+  background: rgb(70, 50, 145);
+  font-family: "Futura-Bold";
+  font-size: 4.5rem;
+  margin-bottom: 5px;
+}
+
+.fw-content {
+  margin: 3% auto;
+  font-size: 1.5rem;
+  font-family: "Brown Std";
+}
+
+.fw-img {
+  border: 3px solid white;
+  max-height: 350px;
+  width: 95%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#fw-bg {
+  background: rgb(70, 50, 145, 30%);
+  margin-bottom: 5px;
+}
+
+/*----- Contact Info Heading -----*/
+.contact-heading {
+  padding-left: 3%;
+  background: rgb(211, 147, 40);
+  font-family: "Futura-Bold";
+  font-size: 4.5rem;
+  margin-bottom: 5px;
+}
+
+.contact-content {
+  margin: 3% auto;
+  font-size: 1.5rem;
+  font-family: "Brown Std";
+}
+
+#contact-bg {
+  background: rgb(211, 147, 40, 30%);
+  margin-bottom: 5px;
+}
+
+/*----- Giving Heading -----*/
+.giving-heading {
+  padding-left: 3%;
+  background: rgb(128,128,128);
+  font-family: "Futura-Bold";
+  font-size: 4.5rem;
+  margin-bottom: 5px;
+}
+
+.giving-content {
+  margin: 3% auto;
+  font-size: 1.5rem;
+  font-family: "Brown Std";
+}
+
+#giving-bg {
+  background: rgb(128,128,128, 30%);
+  margin-bottom: 5px;
 }
 
 .table {
@@ -112,7 +212,7 @@ tbody {
  background: rgb(195,155,188,75%);
 }
 
-/*Footer*/ 
+/*----- Footer -----*/ 
 .footer {
   bottom: 0;
   width: 100%;
@@ -121,63 +221,6 @@ tbody {
   background-color: #791F62;
   font-family: "Futura-Bold";
   font-size: 1.325rem;
-}
-
-#testing, #fondo {
-  background: rgb(116,179,75, 30%);
-}
-
-.fondo-img {
-  max-height: 400px;
-  width: 100%
-}
-
-.fw-img {
-  /*border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;*/
-  border: 3px solid white;
-  max-height: 350px;
-  width: 95%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.crit-text {
-  /*padding-top: 3%;
-  padding-left: 3%;
-  padding-right: 3%;*/
-  margin: 3% auto;
-  font-size: 1.5rem;
-  font-family: "Brown Std";
-}
-
-#fondo-test {
-  background: rgb(116,179,75);
-}
-
-#fw-test {
-  background: rgb(70, 50, 145);
-}
-
-#fw {
-  background: rgb(70, 50, 145, 30%);
-  
-}
-
-#contact-test {
-  background: rgb(211, 147, 40);
-}
-
-#contact {
-  background: rgb(211, 147, 40, 30%);
-}
-
-#giving-test {
-  background: rgb(128,128,128);
-}
-
-#giving {
-  background: rgb(128,128,128, 30%);
 }
 
 /* Style all font awesome icons */
@@ -246,7 +289,7 @@ tbody {
   .crit-text {
     font-size: 1.25rem;
   }
-  .crit-test {
+  .race-heading {
     font-size: 4.00rem;
   }
   .fw-img {
@@ -270,7 +313,7 @@ tbody {
     border-bottom: 2px solid #D39328;
     border-right: none;
   }
-  .crit-test {
+  .race-heading {
     font-size: 3.00rem;
   }
 }
