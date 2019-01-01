@@ -20,7 +20,22 @@ body {
   /*letter-spacing: 1px;*/
 }
 
-/*------ Nav ------*/
+
+
+/*------ Nav & Top-Span ------*/
+.sticky-top {
+  background-color: #791F62;
+}
+
+.top-span {
+  color: #D39328;
+  font-family: "Futura-Bold";
+  font-size: 1.2rem;
+  margin-left:30px;
+  padding-top: 15px;
+  margin-bottom: -5px;
+}
+
 .navbar-light .navbar-toggler {
   color: #D39328;
   border-color: #D39328;
@@ -37,6 +52,7 @@ body {
 .nav-link {
   border-right: 3px solid #D39328;
   font-family: "Futura-Bold";
+  color: #D39328 !important;
 }
 
 .nav-link:hover {
@@ -73,13 +89,6 @@ body {
 
 .hero-img {
   opacity: 0.0;
-}
-
-/*Schedule Row*/
-.schedule {
-  background-color: #DDE4EF;
-  margin-bottom: 5px;
-  color: rgb(1,1,1, 80%);
 }
 
 /*----- Races -----*/
@@ -124,7 +133,7 @@ body {
 
 #fondo-bg
 {
-  background: rgb(116,179,75, 30%);
+  background: #D5E8CA; /*rgb(116,179,75, 30%)*/
   margin-bottom: 5px;
 }
 
@@ -152,7 +161,7 @@ body {
 }
 
 #fw-bg {
-  background: rgb(70, 50, 145, 30%);
+  background: #C7C1DE; /*rgb(70, 50, 145, 30%)*/
   margin-bottom: 5px;
 }
 
@@ -172,7 +181,7 @@ body {
 }
 
 #contact-bg {
-  background: rgb(211, 147, 40, 30%);
+  background: #F2DFC2; /*rgb(211, 147, 40, 30%)*/
   margin-bottom: 5px;
 }
 
@@ -192,7 +201,7 @@ body {
 }
 
 #giving-bg {
-  background: rgb(128,128,128, 30%);
+  background: #D9D9D9; /*rgb(128,128,128, 30%)*/
   margin-bottom: 5px;
 }
 
@@ -315,6 +324,9 @@ tbody {
   }
   .race-heading {
     font-size: 3.00rem;
+  }
+  .top-span {
+    font-size: 1.0rem;
   }
 }
 
