@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  max-width: 1440px;
+  max-width: 1680px;
   margin: auto;
   /*letter-spacing: 1px;*/
 }
@@ -27,9 +27,21 @@ body {
   background-color: #791F62;
 }
 
+.nav-title {
+  padding-top: 15px;
+  font-family: "Futura-Bold", sans-serif;
+  font-size: 1.3rem;
+
+}
+
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .top-span {
   color: #D39328;
-  font-family: "Futura-Bold";
+  font-family: "Futura-Bold", sans-serif;
   font-size: 1.2rem;
   margin-left:30px;
   padding-top: 15px;
@@ -51,19 +63,19 @@ body {
 
 .nav-link {
   border-right: 3px solid #D39328;
-  font-family: "Futura-Bold";
+  font-family: "Futura-Bold", sans-serif;
   color: #D39328 !important;
 }
 
 .nav-link:hover {
-  background-color: gray;
+  background-color: white;
 }
 
 /*----- Nav Btn -----*/
 .register-btn {
     color: white;
     background-color: #C39BBC;
-    font-family: "Futura-Bold";
+    font-family: "Futura-Bold", sans-serif;
     border: 3px solid white;
 }
 
@@ -91,19 +103,32 @@ body {
   opacity: 0.0;
 }
 
+/*----- Section Headers -----*/
+.section-header {
+  font-size: 1.5rem;
+  color: navy;
+  font-family: "Futura-Bold", sans-serif;
+}
+
+/*li > a{
+  color: navy;
+}
+*/
 /*----- Races -----*/
 .race-heading {
   padding-left: 3%;
   background-color: rgb(142,167,202);
-  font-family: "Futura-Bold";
-  font-size: 4.5rem;
+  font-family: "Futura-Bold", sans-serif;
+  font-size: 3.5rem;
   margin-bottom: 5px;
 }
 
 .race-content {
-  margin: 3% auto;
+  margin: 2% auto;
   font-size: 1.5rem;
   font-family: "Brown Std";
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 #race-bg {
@@ -111,19 +136,49 @@ body {
   margin-bottom: 5px;
 }
 
-/*----- Fondo -----*/
-.fondo-heading {
+.fondo-content {
+  font-size: 1.5rem;
+  font-family: "Brown Std";
   padding-left: 3%;
-  background: rgb(116,179,75);
-  font-family: "Futura-Bold";
-  font-size: 4.5rem;
+  padding-right: 3%;
+}
+
+#fondo-bg {
+  background-color: #DDE4EF;
   margin-bottom: 5px;
 }
 
-.fondo-content {
-  margin: 3% auto;
+.table {
+  /*background: #C39BBC;*/
+  width: 100%;
+  margin: 5% auto;
+  float: none;
+  font-family: "Brown Std", sans-serif;
+}
+
+thead {
+  background: rgb(195,155,188);
+}
+
+tbody {
+ background: #CAACC9;
+}
+
+/*----- Event Info -----*/
+.event-heading {
+  padding-left: 3%;
+  background: rgb(116,179,75);
+  font-family: "Futura-Bold", sans-serif;
+  font-size: 3.5rem;
+  margin-bottom: 5px;
+}
+
+.event-content {
+  margin: 1% auto;
   font-size: 1.5rem;
-  font-family: "Brown Std";
+  font-family: "Brown Std", sans-serif;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .fondo-img {
@@ -131,7 +186,7 @@ body {
   width: 100%
 }
 
-#fondo-bg
+#event-bg
 {
   background: #D5E8CA; /*rgb(116,179,75, 30%)*/
   margin-bottom: 5px;
@@ -141,23 +196,26 @@ body {
 .fw-heading {
   padding-left: 3%;
   background: rgb(70, 50, 145);
-  font-family: "Futura-Bold";
-  font-size: 4.5rem;
+  font-family: "Futura-Bold", sans-serif;
+  font-size: 3.5rem;
   margin-bottom: 5px;
 }
 
 .fw-content {
-  margin: 3% auto;
+  margin: 1% auto;
   font-size: 1.5rem;
-  font-family: "Brown Std";
+  font-family: "Brown Std", sans-serif;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .fw-img {
   border: 3px solid white;
-  max-height: 350px;
+  /*max-height: 350px;*/
   width: 95%;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 2%;
 }
 
 #fw-bg {
@@ -169,15 +227,17 @@ body {
 .contact-heading {
   padding-left: 3%;
   background: rgb(211, 147, 40);
-  font-family: "Futura-Bold";
-  font-size: 4.5rem;
+  font-family: "Futura-Bold", sans-serif;
+  font-size: 3.5rem;
   margin-bottom: 5px;
 }
 
 .contact-content {
-  margin: 3% auto;
+  margin: 1% auto;
   font-size: 1.5rem;
-  font-family: "Brown Std";
+  font-family: "Brown Std", sans-serif;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 #contact-bg {
@@ -189,36 +249,22 @@ body {
 .giving-heading {
   padding-left: 3%;
   background: rgb(128,128,128);
-  font-family: "Futura-Bold";
-  font-size: 4.5rem;
+  font-family: "Futura-Bold", sans-serif;
+  font-size: 3.5rem;
   margin-bottom: 5px;
 }
 
 .giving-content {
-  margin: 3% auto;
+  margin: 1% auto;
   font-size: 1.5rem;
-  font-family: "Brown Std";
+  font-family: "Brown Std", sans-serif;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 #giving-bg {
   background: #D9D9D9; /*rgb(128,128,128, 30%)*/
   margin-bottom: 5px;
-}
-
-.table {
-  /*background: #C39BBC;*/
-  width: 100%;
-  margin: 5% auto;
-  float: none;
-  font-family: "Brown Std";
-}
-
-thead {
-  background: rgb(195,155,188);
-}
-
-tbody {
- background: rgb(195,155,188,75%);
 }
 
 /*----- Footer -----*/ 
@@ -228,20 +274,16 @@ tbody {
   color: #D39328;
   border-top: solid 5px #D39328;
   background-color: #791F62;
-  font-family: "Futura-Bold";
+  font-family: "Futura-Bold", sans-serif;
   font-size: 1.325rem;
 }
 
 /* Style all font awesome icons */
 .fa {
-    padding: 20px;
-    font-size: 80px;
-    width: 140px;
+    font-size: 100px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
-    border-radius: 10px;
-    /*border: 5px solid white;*/
-    margin-top: 5px;
 }
 
 /* Add a hover effect if you want */
@@ -252,41 +294,33 @@ tbody {
 /* Set a specific color for each brand */
 
 /* Facebook */
-.fa-facebook {
-    background: #3B5998;
-    color: white;
+.fa-facebook, .fa-twitter, .fa-instagram {
+  color: white;
 }
 
-#fb, #tw, #ig, #yt {
-  font-size: 70px;
+#fb, #tw, #ig {
+  font-size: 1.5rem;
   /*margin-top: 70px;*/
 }
 
-/* Twitter */
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-instagram {
-  background: maroon;
-  color: white;
+#ig {
+  margin-right: 10px;
 }
 
 @media (max-width: 1312px)
 {
-  .fa {
+  /*.fa {
     width: 250px;
     margin-top: 10px;
     margin-left: 20px;
-  }
+  }*/
 }
 
 @media (max-width: 1156px)
 {
-  .fa {
+  /*.fa {
     width: 200px;
-  }
+  }*/
 }
 
 @media (max-width: 991px)
@@ -298,16 +332,25 @@ tbody {
   .crit-text {
     font-size: 1.25rem;
   }
-  .race-heading {
-    font-size: 4.00rem;
+  .race-heading, .event-heading, .fw-heading, .giving-heading, .contact-heading {
+    font-size: 3.00rem;
   }
+
+  .race-content, .event-content, .fondo-content, .fw-content, .giving-content, .contact-content {
+    font-size: 1.1rem;
+  }
+
+  .section-header {
+    font-size: 1.3rem;
+  }
+
   .fw-img {
     margin-top: 15px;
   }
-  .fa {
+  /*.fa {
     margin-left: 5px;
     margin-top: 10px;
-  }
+  }*/
   .nav-link {
     font-size: .80rem;
   }
@@ -319,35 +362,21 @@ tbody {
 @media (max-width: 576px)
 {
   .nav-link {
-    border-bottom: 2px solid #D39328;
     border-right: none;
   }
-  .race-heading {
-    font-size: 3.00rem;
+  .race-heading, .event-heading, .fw-heading, .giving-heading, .contact-heading {
+    font-size: 2.50rem;
   }
+
+  .race-content, ,.event-content, .fondo-content, .fw-content, .giving-content, .contact-content {
+    font-size: .9rem;
+  }
+
+  .section-header {
+    font-size: 1.1rem;
+  }
+
   .top-span {
     font-size: 1.0rem;
   }
 }
-
-/*table.table-bordered > thead > tr > th{
-  border:2px solid #791F62;
-}
-
-table.table-bordered > tbody > tr > td{
-    border:2px solid #791F62;
-}
-
-table.table-bordered > tbody > tr > th{
-    border:2px solid #791F62;
-}*/
-
-
-
-
-
-
-
-
-
-

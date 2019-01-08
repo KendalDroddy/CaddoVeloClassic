@@ -28,9 +28,10 @@
     <div class="wrapper">
       <!-- Nav -->
       <div class="sticky-top">
-        <p class="top-span text-white">FEIST-WEILLER CANCER CENTER CADDO VELO CLASSIC</p>
+        <!-- <p class="top-span text-white">FEIST-WEILLER CANCER CENTER CADDO VELO CLASSIC</p> -->
         <nav class="navbar navbar-expand-md navbar-light" style="background-color: #791F62;border-bottom: 5px solid #D39328;">
-          <a class="navbar-brand" href="#" style="color: #D39328; font-weight:bold; font-size: 1.3em;">
+          <!-- <p class="nav-title text-white">CADDO VELO CLASSIC</p> -->
+          <a class="navbar-brand" href="#" style="color: #D39328; font-weight:bold; font-size: 1.3em; margin-right: 0px;">
             <img src="img/cvc.png" width="100" height="60" class="d-inline-block align-top" alt="">
           </a>
           <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,26 +41,29 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="">RACES</a>
+                <a class="nav-link" href="#races">RACES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">EVENT INFO</a>
+                <a class="nav-link" href="#event">EVENT INFO</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="">FIT FEST</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#sponsor">SPONSORS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">SPONSORS</a>
+                <a class="nav-link" href="#fw">FWCC</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">FWCC</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">CONTACTS</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
               </li>
             </ul>
+            <a id="fb" href="https://www.facebook.com/events/291404981518469/" class="fa fa-facebook"></a>
+              <a id="tw" href="https://twitter.com/search?f=tweets&q=caddo%20velo%20classic&src=typd" class="fa fa-twitter"></a>
+              <a id="ig" href="https://www.instagram.com/explore/tags/caddoveloclassic/" class="fa fa-instagram"></a>
             <form class="form-inline my-2 my-lg-0">
-              <a class="register-btn btn-lg my-2 my-sm-0" href="https://legacy.usacycling.org/myusac/index.php?pagename=registration&eventid=108&year=2019" role="button">REGISTER NOW</a>
+              <a class="register-btn btn-lg my-2 my-sm-0" href="https://legacy.usacycling.org/myusac/index.php?pagename=registration&eventid=108&year=2019" role="button">REGISTER</a>
             </form>
           </div>
         </nav>
@@ -75,7 +79,7 @@
       </div>
 
       <!-- Races Heading -->
-      <div class="container-fluid">
+      <div class="container-fluid" id="races">
         <div class="row text-white race-heading">
           <div class="col-lg-12">
             <span>RACES</span>
@@ -84,37 +88,43 @@
       </div>
 
       <!-- Races Content-->
-      <div class="container-fluid">
-        <div class="row" id="race-bg">
-          <div class="col-lg-6 text-justify race-content">
-            <p>All riders from juniors to professionals compete in criteriums
+      <div class="container-fluid" id="race-bg">
+        <div class="row">
+          <div class="col-lg-6 race-content">
+            <h3 class="section-header">Caddo Velo Classic CRITERIUM - March 30, 2019</h3>
+            <p class="text-justify">All riders from juniors to professionals compete in criteriums
                 throughout the day on a 0.72 mile tight, technical course through
                 Downtown Shreveport. Races begin with the junior category,
                 culminating in the early evening with the Pro/1/2 men and women racing in pursuit of a $10,000 purse
                 for men and a $10,000 purse for women. Prior to the Pro events,
-                we are hosting a “Kids Ride”, free to children 10 and under. There
+                we are hosting a “Kids Ride” free to children 10 and under. There
                 will be a total of eleven races, by category.
-                <a href="https://legacy.usacycling.org/events/getflyer.php?permit=2019-108"><strong>See Race Flyer for details</strong></a>
+            <ul>
+              <li><a href="https://legacy.usacycling.org/myusac/index.php?pagename=registration&eventid=108&year=2019">Registration</a></li>
+              <li><a href="https://legacy.usacycling.org/events/getflyer.php?permit=2019-108">Race Flyer</a></li>
+              <li>Race Bible</li>
+              <li><a href="http://caddoveloclassic.com/img/critMap.png">Course Map</a></li>
+            </ul>    
           </div>
           <div class="col-lg-6">
             <table class="table table-sm table-hover table-bordered table-responsive-sm">
               <thead>
                 <tr>
-                  <th scope="col">CATEGORY</th>
-                  <th scope="col">START TIME</th>
-                  <th scope="col">DURATION</th>
-                  <th scope="col">AWARDS</th>
+                  <th scope="col">Category</th>
+                  <th scope="col">Start Time</th>
+                  <th scope="col">Duration (Mins)</th>
+                  <th scope="col">Awards</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">Jrs Men Cat 4/5</br> Jrs Women Cat 4/5</th>
+                  <th scope="row">Jr Men's Cat 4/5</br> Jr Women's Cat 4/5</th>
                   <td>9:00 am</td>
                   <td>20</td>
                   <td>Prizes/5</br>Prizes/5</td>
                 </tr>
                 <tr>
-                  <th scope="row">Men Cat 5</th>
+                  <th scope="row">Men's Cat 5</th>
                   <td>9:30 am</td>
                   <td>30</td>
                   <td>Prizes/5</td>
@@ -177,28 +187,92 @@
             </table>
           </div>
         </div>
-      </div>
-
-      <!-- Gran Fondo Heading-->
-      <div class="container-fluid">
-        <div class="row text-white fondo-heading">
-          <span>GRAN FONDO</span>
+        <!-- Fondo Information -->
+        <div class="row" id="fondo-bg">
+          <div class="col-lg-12 text-justify fondo-content">
+            <h3 class="section-header">Caddo Velo Classic GRAN FONDO - March 31, 2019</h3>
+            <p>This ride is a community ride, open to all riders, professional, amateur, and recreational. The Gran Fondo is a 100 mile scenic ride beginning in downtown Shreveport, covering a winding route north of the City through some of the most beautiful and wooded areas in Louisiana.</p>
+            <ul>
+              <li>Registration</li>
+              <li>Race Flyer</li>
+              <li><a href="http://caddoveloclassic.com/img/fondoMap.png">Course Map</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row" id="fondo-bg">
+          <div class="col-lg-12 text-justify fondo-content">
+            <h3 class="section-header">Race Results</h3>
+            <p>Coming Soon!</p>
+          </div>
         </div>
       </div>
-      <!-- Gran Fondo Content -->
+
+      <!-- Event Info Heading-->
+      <div class="container-fluid" id="event">
+        <div class="row text-white event-heading">
+          <span>EVENT INFO</span>
+        </div>
+      </div>
+      <!-- Event Info Content -->
       <div class="container-fluid">
-        <div id="fondo-bg" class="row">
-          <div class="col-lg-6 p-0">
-            <img src="img/gf.jpg" class="img-fluid fondo-img" alt="Caddo Velo Classic Criterium Flyer">
+        <div id="event-bg" class="row">
+            <!-- <img src="img/gf.jpg" class="img-fluid fondo-img" alt="Caddo Velo Classic Criterium Flyer"> -->
+          <div class="col-lg-12 text-justify event-content" id="fondo-text">
+            <h3 class="section-header">Food & Beverage</h3>
+            <p>Louisiana is known for its great food and festive atmosphere. Check out these great locations in Downtown Shreveport—most within walking (or biking) distance of the Caddo Velo Classic Criterium!</p>
+            <ul>
+              <li><a href="http://downtownshreveport.com/restaurants/">Restaurants</a></li>
+              <li><a href="http://downtownshreveport.com/bars-and-nightlife/">Bars & Nightlife</a></li>
+            </ul>
+            <h3 class="section-header">Parking</h3>
+            <p>In Downtown Shreveport, on-street parking is FREE on weekends and after 5 pm Monday through Friday. Once the Criterium has started, lots within the race course will not be accessible. PLEASE NOTE! Parking at many of the lots, and all System Parking Lots is NEVER free. Private parking lots can and do charge at night and on weekends.</p>
+            <ul>
+              <li><a href="http://downtownshreveport.com/parking/">Parking Info</a></li>
+              <li><a href="http://downtownshreveport.com/wp-
+content/uploads/2018/04/public-lots-april-2018.pdf">Lot Locations</a></li>
+              <li><a href="http://downtownshreveport.com/wp-
+content/uploads/2018/08/August-2018-public-parking-rev.pdf">Lot Prices</a></li>
+            </ul>
+            <h3 class="section-header">Downtown Shreveport</h3>
+            <p>Spend the day Downtown and experience some of the great things Shreveport has to
+                offer. You’ll discover delicious food, cool art, and colorful history while watching a thrilling bike race along a tight, technical course.</p>
+            <ul>
+              <li><a href="http://downtownshreveport.com/play-downtown/">Welcome to Downtown Shreveport</a></li>
+            </ul>
+            <h3 class="section-header">Accommodations</h3>
+            <p>Coming from out of town? There are several places to stay in Downtown Shreveport or you can venture out and see more of our exciting city.</p>
+            <ul>
+              <li><a href="http://downtownshreveport.com/hotels/">I want to stay Downtown</a></li>
+              <li><a href="https://www.shreveport-bossier.org/hotels/">I want to venture out</a></li>
+            </ul>
+            <h3 class="section-header">Volunteers</h3>
+            <p>Want to be part of the fun? Why not volunteer on race days! If you or your organization are interested in helping out, contact Darlene Whitaker at 318-813-1485 or dwhita@lsuhsc.edu.</p>
           </div>
-          <div class="col-lg-6 text-justify fondo-content" id="fondo-text">
-            <p>This ride is a community ride, open to all riders, professional, amateur, and recreational. The Gran Fondo is a 100 mile scenic ride beginning in downtown Shreveport, covering a winding route north of the City through some of the most beautiful and wooded areas in Louisiana.</p>
+        </div>
+      </div>
+
+      <!-- Giving Heading-->
+      <div class="container-fluid" id="sponsor">
+        <div class="row text-white giving-heading">
+          <span>SPONSORS</span>
+        </div>
+      </div>
+      <!-- Giving Content -->
+      <div class="container-fluid schedule-test">
+        <div id="giving-bg" class="row">
+          <div class="col-lg-12 text-justify giving-content">
+            <p>This exciting two-day event offers a great occasion to market your organization/business and showcase your products and services to the riders, future riders, and spectators. If you would like to receive a sponsorship packet detailing our sponsorship opportunities, please contact <strong>Darlene Whitaker</strong> at (318) 813-1485 or dwhita@lsushc.edu. We welcome the opportunity to create a custom package to fit your goals.</p>
+            <ul>
+              <li><a href="http://caddoveloclassic.com/img/communityEvent.png">A Community Event</a></li>
+              <li><a href="http://caddoveloclassic.com/img/cyclingDemographics.png">Cycling Demographics</a></li>
+              <li><a href="http://lsuhsfoundation.org/caddoveloclassic">Be a Sponsor</a></li>
+            </ul>
           </div>
         </div>
       </div>
 
       <!-- Feist Weiller Heading-->
-      <div class="container-fluid">
+      <div class="container-fluid" id="fw">
         <div class="row text-white fw-heading">
           <span>FEIST-WEILLER</span>
         </div>
@@ -208,6 +282,18 @@
         <div id="fw-bg" class="row">
           <div class="col-lg-6 text-justify fw-content">
             <p>The Feist-Weiller Cancer Center (FWCC), designated a Center of Excellence, a leader in cancer research and cancer treatment, is the Regional Referral Center for North Louisiana. As part of a “safety net” hospital system we service a rural core of over 40 sites where screenings and treatment may be unaffordable or unavailable. FWCC serves the insured, the underinsured, and the uninsured.</p>
+            <p class="section-header">Our Mission</p>
+            <ol>
+              <li>Raise funds for cancer research, cancer treatment and cancer
+            education and for expansion of our cancer screening and prevention programs
+              </li>
+              <li>Promote a healthy lifestyle
+              </li>
+              <li>Showcase our city
+              </li>
+            </ol>
+          Rising costs of healthcare and dwindling funding
+            make this event critical for advancing our goals.</p>
           </div>
           <div class="col-lg-6">
             <img src="img/fwcc.jpg" class="img-fluid fw-img" alt="Caddo Velo Classic Criterium Flyer">
@@ -216,39 +302,25 @@
       </div>
 
       <!-- Contact Info Heading-->
-      <div class="container-fluid">
+      <div class="container-fluid" id="contact">
         <div class="row text-white contact-heading">
-          <span>CONTACT INFO</span>
+          <span>CONTACT</span>
         </div>
       </div>
       <!-- Contact Content -->
-      <div class="container-fluid schedule-test">
-        <div id="contact-bg" class="row">
-          <div class="col-lg-6 text-justify contact-content">
-            <p>Sponsorship packages and marketing opportunities can be tailored to meet your specific design needs and ideas. Let us work with you in meeting your advertising needs while supporting cancer research, cancer education, and cancer treatment. For more information contact Darlene Whitaker at <a href="mailto:dwhita@lsuhsc"><strong>dwhita@lsuhsc.edu.</strong></a></p>
-          </div>
-          <div class="col-lg-6 text-white crit-text" id="fondo-text">
-              <a id="fb" href="#" class="fa fa-facebook"></a>
-              <a id="tw" href="https://twitter.com/search?f=tweets&q=caddo%20velo%20classic&src=typd" class="fa fa-twitter"></a>
-              <a id="ig" href="https://www.instagram.com/explore/tags/caddoveloclassic/" class="fa fa-instagram"></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Giving Heading-->
       <div class="container-fluid">
-        <div class="row text-white giving-heading">
-          <span>GIVING</span>
-        </div>
-      </div>
-      <!-- Giving Content -->
-      <div class="container-fluid schedule-test">
-        <div id="giving-bg" class="row">
-          <div class="col-lg-6 text-justify giving-content">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <div id="contact-bg" class="row">
+          <div class="col-lg-6 text-center contact-content">
+            <p class="section-header">Event Coordinator</p>
+            <p>Darlene Whitaker</br>
+            (318) 813-1485</br>
+            <a href="mailto:dwhita@lsuhsc"><strong>dwhita@lsuhsc.edu</strong></a></p>
           </div>
-          <div class="col-lg-6 text-justify giving-content">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          <div class="col-lg-6 text-center contact-content">
+            <p class="section-header">Race Director</p>
+             <p>Mary Jimenez</br>
+            (318) 455-3658</br>
+            <a href="mailto:teamlasportracing@gmail.com"><strong>teamlasportracing@gmail.com</strong></a></p>
           </div>
         </div>
       </div>
